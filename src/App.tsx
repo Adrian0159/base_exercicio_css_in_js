@@ -6,6 +6,7 @@ import EstiloGlobal, { Container } from './styles'
 function App() {
   return (
     <>
+      <EstiloGlobal />
       <Header />
       <Hero />
       <Container>

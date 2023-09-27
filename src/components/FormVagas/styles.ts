@@ -7,11 +7,19 @@ export const Form = styled.form`
   padding: 32px;
   border-radius: 12px;
   margin-top: 40px;
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
 `
 
 export const CampoInput = styled.input`
   padding: 0 16px;
   outline-color: #a7727d;
+
+  @media (max-width: 480px) {
+    padding: 10px 5px;
+  }
 `
 
 export const Botao = styled.button`
@@ -28,5 +36,9 @@ export const Botao = styled.button`
   &:hover {
     color: #a7727d;
     background-color: #f9f5e7;
+  }
+
+  @media (max-width: 480px) {
+    margin-top: 15px;
   }
 `

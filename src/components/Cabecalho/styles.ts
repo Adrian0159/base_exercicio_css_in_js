@@ -9,4 +9,9 @@ padding: 24px 0;
 `
 export const H1 = styled.h1`
   color: #a7727d;
+  font-size: 48px;
+
+  @media (max-width: 768px) {
+    font-size: 32px;
+  }
 `
